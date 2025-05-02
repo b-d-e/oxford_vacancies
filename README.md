@@ -62,7 +62,7 @@ You can manually trigger the workflow:
 ## Default Values
 
 If CI variables are not configured:
-- **Default keywords**: "Balliol"
+- **Default keywords**: "Tutor"
 - **Default schedule**: Daily at 8:00 AM UTC (cron: '0 8 * * *')
 
 ## Troubleshooting

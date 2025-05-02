@@ -11,7 +11,7 @@ import pathlib
 # Configuration
 VACANCIES_URL = "https://collegevacancies.web.ox.ac.uk/"
 # Read keywords from environment variable
-keywords_str = os.environ.get("VACANCY_KEYWORDS", "Balliol")
+keywords_str = os.environ.get("VACANCY_KEYWORDS", "College")
 KEYWORDS = [k.strip() for k in keywords_str.split(",")]
 DATA_FILE_PATH = "tracked_vacancies.json"  # File will be at the top level
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
