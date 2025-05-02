@@ -12,7 +12,7 @@ This repository serves as a **GitHub template** for monitoring the [Oxford Colle
 ## Setup Instructions
 
 1. **Create your repository from this template:**
-   - Click the green "Use this template" button at the top of this repository
+   - Click the blue "Use this template" button at the top of this repository
    - Select "Create a new repository"
    - Name your repository and click "Create repository from template"
 
@@ -49,7 +49,7 @@ You can manually trigger the workflow:
 ## Default Values
 
 If CI variables are not configured:
-- **Default keywords**: "Tutor"
+- **Default keywords**: "College"
 - **Default schedule**: Daily at 8:00 AM UTC (cron: '0 8 * * *')
 
 ## Troubleshooting
@@ -65,3 +65,4 @@ If CI variables are not configured:
 - **Additional notification channels:** Modify the `send_slack_notification` function in the Python script
 
 ## License
+This project is open source and available under the [MIT License](LICENSE).
