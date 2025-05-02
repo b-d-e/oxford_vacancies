@@ -39,19 +39,6 @@ This repository serves as a **GitHub template** for monitoring the [Oxford Colle
    - Go to your repository → Actions
    - Click "I understand my workflows, go ahead and enable them"
 
-
-## File Structure
-
-## File Structure
-```
-.github/ 
-├── workflows/ 
-│ └── oxford-vacancies-monitor.yml # GitHub Actions workflow configuration 
-├── scripts/ 
-│ └── check_vacancies.py # Python script that checks for vacancies 
-└── tracked_vacancies.json # Stores previously matched vacancies
-```
-
 ## Manual Trigger
 
 You can manually trigger the workflow:
